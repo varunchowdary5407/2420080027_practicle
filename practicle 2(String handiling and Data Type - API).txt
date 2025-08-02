@@ -1,0 +1,44 @@
+package first;
+
+public class practicle1 {
+  public static void main(String args[]) {
+    String Str="hello this java class";
+    String Str1="hello";
+    String Str2="HeLLo";
+    String Str3="hi how are you";
+    String Str4="hello";
+    String Str5="1234";
+    String Str6="java234";
+    String Str7="";
+    String Str8="    hello java";
+    System.out.println(Str1.compareToIgnoreCase(Str4));
+    System.out.println(Str1.concat(Str3));
+    System.out.println(Str8.contains("ell"));
+    System.out.println(Str8.contentEquals(Str3));
+    System.out.println(Str8.endsWith("lo"));
+    System.out.println(Str8.equals(Str2));
+    System.out.println(Str8.indexOf("o"));
+    System.out.println(Str5.matches("[0-9]+"));
+    System.out.println(Str6.matches("\\d+"));
+    System.out.println(Str8.matches("[a-zA-Z]+\\d+"));
+    System.out.println(Str7.isEmpty());
+    System.out.println(Str8.join("|",Str2,Str4));
+    System.out.println(Str3.lastIndexOf("h"));
+    System.out.println(Str8.replace("l","p"));
+    System.out.println(Str8.replaceFirst("hell","tro"));
+    String Str9[]=Str3.split(";");
+    for (String i:Str9) {
+      System.out.println(i);  
+    }
+    System.out.println(Str6.startsWith("J"));
+    System.out.println(Str8.subSequence(5,12));
+    char arr[]=Str4.toCharArray();
+    System.out.println(arr[0]);
+    System.out.println(Str8.trim());
+    float f=9.8f;
+    
+        
+
+  }
+
+}
